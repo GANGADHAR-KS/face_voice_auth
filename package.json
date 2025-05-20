@@ -1,0 +1,34 @@
+{
+    "name": "face-voice-auth-system",
+    "version": "1.0.0",
+    "description": "A secure authentication system using facial recognition and voice verification",
+    "main": "face_voice_auth_system.py",
+    "author": "Your Name",
+    "dependencies": {
+        "opencv-python": "^4.7.0",
+        "face_recognition": "^1.3.0",
+        "numpy": "^1.24.0",
+        "sounddevice": "^0.4.6",
+        "soundfile": "^0.12.1",
+        "librosa": "^0.10.0",
+        "pillow": "^9.5.0",
+        "customtkinter": "^5.2.0"
+    },
+    "scripts": {
+        "start": "python face_voice_auth_system.py",
+        "setup": "python setup_script.py"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "face-recognition",
+        "voice-recognition",
+        "authentication",
+        "security",
+        "biometrics",
+        "python"
+    ],
+    "license": "MIT"
+}
